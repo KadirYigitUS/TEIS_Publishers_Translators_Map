@@ -4,7 +4,7 @@
 
 Türk Edebiyatı İsimler Sözlüğü (TEİS; https://teis.yesevi.edu.tr/) adresinde yer alan Türk edebiyatına ait şair ve yazarları içeren bir web kaynağıdır.
 
-Adil Kullanım (Fair Use) kapsamında alınan izinle web kaynağından yalnızca çeviri eser içeren eser sayfalar çekilmiş ve bir Sayısal İnsan Bilimleri uygulaması olarak gördüğünüz harita (https://github.com/KadirYigitUS//index.HTML) yaratılmıştır.
+Adil Kullanım (Fair Use) kapsamında alınan izinle web kaynağından yalnızca çeviri eser içeren eser sayfalar çekilmiş ve bir Sayısal İnsan Bilimleri uygulaması olarak gördüğünüz harita (https://github.com/KadirYigitUS/index.HTML) yaratılmıştır.
 
 
 ## Katkı
@@ -19,7 +19,6 @@ Lütfen bu projenin `davranış kurallarına` uyun.
 ## Yazarlar ve Teşekkür
 * [@digitalkoine](https://github.com/digitalkoine/) (Giovanni Pietro Vitali) Pizza Map için. 14th European Summer University in Digital Humanities "Culture & Technology"daki dersleri için.
 * [@SimoneRebora](https://github.com/SimoneRebora) (Simone Rebora). 14th European Summer University in Digital Humanities "Culture & Technology"daki dersleri için.
-* [@digitalkoine](https://github.com/digitalkoine/) Pizza Map için. 14th European Summer University in Digital Humanities "Culture & Technology"daki dersleri için.
 
 - [@octokatherine](https://www.github.com/octokatherine) tasarım ve geliştirme için.
 
