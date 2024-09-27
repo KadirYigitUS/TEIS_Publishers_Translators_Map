@@ -1,6 +1,6 @@
 # Load necessary libraries
 library(leaflet)
-library(readr)
+# library(readr)
 library(dplyr)
 library(leafem)  # For addMouseCoordinates
 library(leaflet.extras)
