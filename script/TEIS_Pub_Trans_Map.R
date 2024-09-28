@@ -33,24 +33,27 @@ data_pub_telifli <- data_pub %>%
 data_pub_telifsiz <- data_pub %>%
   filter(sapply(Trans_Worked, check_translators, translators = data_trans_telifsiz$Trans))
 
-# Load custom icons
 Telifli_Pub_icon <- makeIcon(
-  iconUrl = "images/printing-press-svgrepo-com.svg",
+  iconUrl = "https://raw.githubusercontent.com/KadirYigitUS/TEIS_Publishers_Translators_Map/refs/heads/main/images/printing-press-svgrepo-com.svg",
   iconWidth = 25, iconHeight = 25
 )
+
 Telifsiz_Pub_icon <- makeIcon(
-  iconUrl = "images/printing-press_2-svgrepo-com.svg",
+  iconUrl = "https://raw.githubusercontent.com/KadirYigitUS/TEIS_Publishers_Translators_Map/refs/heads/main/images/printing-press_2-svgrepo-com.svg",
   iconWidth = 25, iconHeight = 25
 )
+
 Telifli_Trans_icon <- makeIcon(
-  iconUrl = "images/translator-language-svgrepo-com.svg",
+  iconUrl = "https://raw.githubusercontent.com/KadirYigitUS/TEIS_Publishers_Translators_Map/refs/heads/main/images/translator-language-svgrepo-com.svg",
   iconWidth = 25, iconHeight = 25
 )
 
 Telifsiz_Trans_icon <- makeIcon(
-  iconUrl = "images/translator-language_2-svgrepo-com.svg",
+  iconUrl = "https://raw.githubusercontent.com/KadirYigitUS/TEIS_Publishers_Translators_Map/refs/heads/main/images/translator-language_2-svgrepo-com.svg",
   iconWidth = 25, iconHeight = 25
 )
+
+
 
 # Offset translators' longitude slightly to avoid perfect overlap with publishers
 data_trans$Trans_loc_lng <- data_trans$Trans_loc_lng + 0.01 # Offset by 0.01 degrees
@@ -110,6 +113,7 @@ places <- st_read("data/shp/countries/ne_110m_populated_places.shp")
 
 # Create the leaflet map
 map <- leaflet() %>%
+  
   addProviderTiles(providers$CartoDB.Positron) %>% # Use CartoDB Positron basemap
   # Add a blank tile layer to serve as "Boş Katman"
   addTiles(group = "Boş Katman") %>%  # This is the custom empty layer
@@ -139,6 +143,7 @@ map <- leaflet() %>%
             ),
             opacity = 0  # Set opacity to 0 to hide color boxes
   ) %>%
+  
   # Add publishers that has copyrighted material (data_pub_telifli) with markers with custom HTML popup content
   addMarkers(
     data = data_pub_telifli,
@@ -278,8 +283,30 @@ map <- leaflet() %>%
   addMouseCoordinates() %>%
   addSearchOSM(options = searchOptions(autoCollapse = TRUE, minLength = 2))
 
+legend_html <- "
+  <div style='padding: 5px; background-color: white; border-radius: 3px;'>
+    <div style='font-weight: bold; margin-bottom: 3px; font-size: 12px;'>Legend</div>
+    <div style='display: flex; align-items: center; margin-bottom: 3px;'>
+      <img src='https://raw.githubusercontent.com/KadirYigitUS/TEIS_Publishers_Translators_Map/refs/heads/main/images/printing-press-svgrepo-com.svg' style='width: 20px; height: 20px; margin-right: 3px;'>
+      <span style='font-size: 10px;'>Telifli Eser İçeren Yayınevleri/Basımevleri</span>
+    </div>
+    <div style='display: flex; align-items: center; margin-bottom: 3px;'>
+      <img src='https://raw.githubusercontent.com/KadirYigitUS/TEIS_Publishers_Translators_Map/refs/heads/main/images/printing-press_2-svgrepo-com.svg' style='width: 20px; height: 20px; margin-right: 3px;'>
+      <span style='font-size: 10px;'>Telifsiz Eser İçeren Yayınevleri/Basımevleri</span>
+    </div>
+    <div style='display: flex; align-items: center; margin-bottom: 3px;'>
+      <img src='https://raw.githubusercontent.com/KadirYigitUS/TEIS_Publishers_Translators_Map/refs/heads/main/images/translator-language-svgrepo-com.svg' style='width: 20px; height: 20px; margin-right: 3px;'>
+      <span style='font-size: 10px;'>Telifli Yazar-Çevirmenler</span>
+    </div>
+    <div style='display: flex; align-items: center;'>
+      <img src='https://raw.githubusercontent.com/KadirYigitUS/TEIS_Publishers_Translators_Map/refs/heads/main/images/translator-language_2-svgrepo-com.svg' style='width: 20px; height: 20px; margin-right: 3px;'>
+      <span style='font-size: 10px;'>Telifsiz Yazar-Çevirmenler</span>
+    </div>
+  </div>
+"
 
+# add legend
+map <- map %>%
+  addControl(html = legend_html, position = "bottomright", className = "custom-legend")
 
-# Display the map
 map
-
