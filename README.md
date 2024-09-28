@@ -1,10 +1,8 @@
+# TÜRK EDEBİYATI İSİMLER SÖZLÜĞÜ (TEİS) YAZAR-ÇEVİRMENLER VE YAYINCILAR HARİTASI
 
-# TÜRK EDEBİYATI İSİMLER SÖZLÜĞÜ (TEİS) YAZAR-ÇEVİRMENLER VE YAYINCILAR
-# HARİTASI
+Türk Edebiyatı İsimler Sözlüğü [TEİS; https://teis.yesevi.edu.tr/] adresinde yer alan Türk edebiyatına ait şair ve yazarları içeren bir web kaynağıdır.
 
-Türk Edebiyatı İsimler Sözlüğü (TEİS; https://teis.yesevi.edu.tr/) adresinde yer alan Türk edebiyatına ait şair ve yazarları içeren bir web kaynağıdır.
-
-Adil Kullanım (Fair Use) kapsamında alınan izinle web kaynağından yalnızca çeviri eser içeren eser sayfalar çekilmiş ve bir Sayısal İnsan Bilimleri uygulaması olarak gördüğünüz harita (https://github.com/KadirYigitUS/index.html) yaratılmıştır.
+Adil Kullanım (Fair Use) kapsamında alınan izinle web kaynağından yalnızca çeviri eser içeren eser sayfalar çekilmiş ve bir Sayısal İnsan Bilimleri uygulaması olarak gördüğünüz harita [https://github.com/KadirYigitUS/TEIS_Publishers_Translators_Map/index.html] yaratılmıştır.
 
 
 ## Katkı
