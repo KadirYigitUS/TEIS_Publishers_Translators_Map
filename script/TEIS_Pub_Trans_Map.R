@@ -287,20 +287,20 @@ legend_html <- "
   <div style='padding: 0px; background-color: white; border-radius: 0px;'>
     <div style='font-weight: bold; margin-bottom: 0px; font-size: 10px;'>Açıklama</div>
     <div style='display: flex; align-items: center; margin-bottom: 0px;'>
-      <img src='https://raw.githubusercontent.com/KadirYigitUS/TEIS_Publishers_Translators_Map/refs/heads/main/images/printing-press-svgrepo-com.svg' style='width: 10px; height: 10px; margin-right: 1px;'>
-      <span style='font-size: 8px;'>Telifli Eser - Yayıncı</span>
+      <img src='https://raw.githubusercontent.com/KadirYigitUS/TEIS_Publishers_Translators_Map/refs/heads/main/images/printing-press-svgrepo-com.svg' style='width: 12px; height: 12px; margin-right: 1px;'>
+      <span style='font-size: 10px;'>Telifli Eser - Yayıncı</span>
     </div>
     <div style='display: flex; align-items: center; margin-bottom: 0px;'>
-      <img src='https://raw.githubusercontent.com/KadirYigitUS/TEIS_Publishers_Translators_Map/refs/heads/main/images/printing-press_2-svgrepo-com.svg' style='width: 10px; height: 10px; margin-right: 1px;'>
-      <span style='font-size: 8px;'>Telifsiz Eser - Yayıncı</span>
+      <img src='https://raw.githubusercontent.com/KadirYigitUS/TEIS_Publishers_Translators_Map/refs/heads/main/images/printing-press_2-svgrepo-com.svg' style='width: 12px; height: 12px; margin-right: 1px;'>
+      <span style='font-size: 10px;'>Telifsiz Eser - Yayıncı</span>
     </div>
     <div style='display: flex; align-items: center; margin-bottom: 0px;'>
-      <img src='https://raw.githubusercontent.com/KadirYigitUS/TEIS_Publishers_Translators_Map/refs/heads/main/images/translator-language-svgrepo-com.svg' style='width: 10px; height: 10px; margin-right: 1px;'>
-      <span style='font-size: 8px;'>Telifli Yazar-Çevirmen</span>
+      <img src='https://raw.githubusercontent.com/KadirYigitUS/TEIS_Publishers_Translators_Map/refs/heads/main/images/translator-language-svgrepo-com.svg' style='width: 12px; height: 12px; margin-right: 1px;'>
+      <span style='font-size: 10px;'>Telifli Yazar-Çevirmen</span>
     </div>
     <div style='display: flex; align-items: center;'>
-      <img src='https://raw.githubusercontent.com/KadirYigitUS/TEIS_Publishers_Translators_Map/refs/heads/main/images/translator-language_2-svgrepo-com.svg' style='width: 10px; height: 10px; margin-right: 1px;'>
-      <span style='font-size: 8px;'>Telifsiz Yazar-Çevirmen</span>
+      <img src='https://raw.githubusercontent.com/KadirYigitUS/TEIS_Publishers_Translators_Map/refs/heads/main/images/translator-language_2-svgrepo-com.svg' style='width: 12px; height: 12px; margin-right: 1px;'>
+      <span style='font-size: 10px;'>Telifsiz Yazar-Çevirmen</span>
      </div>
 "
 
