@@ -8,7 +8,8 @@ Bu harita ilk kez 1 Ekim 2024 tarihinde ICASTIS Edebi Çeviri ve Teknoloji Panel
 
 > Us, K.Y. (2024, September 30-October 2). *Bilgisayar destekli çeviribilim: Neden hemen şimdi?* [Congress presentation abstract]. 2nd International Congress on Academic Studies in Translation and Interpreting Studies, Bolu, Türkiye.
 
-Sunum slaytları için: [slaytlar](https://https://github.com/KadirYigitUS/TEIS_Publishers_Translators_Map/blob/main/ICASTIS-2024-ECTP/Bilgisayar_Destekli_Ceviribilim-Neden_Hemen_Simdi.pptx
+Sunum slaytları için: [slaytlar](https://github.com/KadirYigitUS/TEIS_Publishers_Translators_Map/raw/main/ICASTIS-2024-ECTP/Bilgisayar_Destekli_Ceviribilim-Neden_Hemen_Simdi.pptx)
+
 
 ## Katkı
 
